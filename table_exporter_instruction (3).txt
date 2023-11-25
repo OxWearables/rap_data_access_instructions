@@ -48,9 +48,7 @@ If you have any questions or find any bugs, please add an issue on GitHub or ema
 
 # Credits
 
-This worked example draws on an earlier tutorial: 
-
-- https://github.com/OxWearables/rap_wearables
+This worked example draws the [rap_wearables tuorial](https://github.com/OxWearables/rap_wearables)
 
 This repository was written by [Alaina Shreves](mailto::alaina.shreves@wadham.ox.ac.uk), with contributions and advice from Rosemary Walmsley and Adam Sturge.
 
