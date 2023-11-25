@@ -12,7 +12,6 @@ Note that there are two primary methods for accessing UKB data using the RAP.
 
 ## This folder contains: 
 ### Data extraction template (via Jupyter Notebook)
-Path: /data_access_instructions/data_extraction_template.ipynb
 Description: This notebook walks through a simple example of extracting data using the RAP. This documentation was summarized from the [RAP Wearables tutorial](https://github.com/OxWearables/rap_wearables), which contains a more detailed walkthrough of accessing and analyzing data using the RAP.
 
 *Note - This notebook in this repository should be run using a Spark cluster setup on the RAP system. Read how to set up a Spark cluster [here](https://dnanexus.gitbook.io/uk-biobank-rap/working-on-the-research-analysis-platform/using-spark-to-analyze-tabular-data).*
@@ -22,17 +21,11 @@ Before each code chunk, there is text labeled 'edit code' and 'standard code.' M
 To extract your own data, copy this file and the candidate field list file (described below) into your folder before making changes.
 
 ### Candidate field list example (for Jupyter Notebook example)
-Path: /data_access_instructions/candidate_field_list_updated_example.txt
 Description: This file is used by the Jupyter Notebook to extract specific data fields. Please follow the instructions in the data extraction template for how to update the file to pull any additional fields of interest. 
 
 To extract your own data, copy this file and the Jupyter Notebook example (described above) into your folder before making changes.
 
-### Extracted data example (for Jupyter Notebook example)
-Path: /data_access_instructions/participant_data_example.csv
-Description: This file is an example of data that was extracted using the Jupyter Notebook method.
-
 ### Data extraction instructions (via RAP Table Exporter)
-Path: /data_access_instructions/table_exporter_instruction.txt
 Description: This text file outlines instructions for how to extract data using the RAP Table Exporter method. 
 
 *Note that while this method allows you to quickly pull data on a few specific variables, it might not be considered as easily reproducible by outside researchers.* 
