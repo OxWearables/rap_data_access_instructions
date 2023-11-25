@@ -30,7 +30,7 @@ Description: This text file outlines instructions for how to extract data using 
 *Note that while this method allows you to quickly pull data on a few specific variables, it might not be considered as easily reproducible by outside researchers.* 
 
  Use cases: 
-**I want to extract UKB data for my analysis:** You can either use the Jupyter Notebook method or the RAP data explorer method. We recommend using the Jupyter notebook method, /data_access_instructions/data_extraction_template.ipynb, if possible as it is more reproducible. 
+**I want to extract UKB data for my analysis:** You can either use the Jupyter Notebook method or the RAP data explorer method. We recommend using the Jupyter notebook method if possible as it is more reproducible. 
 
 If you want to add a few variables to an existing dataset or want a quicker method of pulling data, you can follow the TAP Table Table Exporter instructions. However, this method is not easily reproducible and not preferred by our group.
 
