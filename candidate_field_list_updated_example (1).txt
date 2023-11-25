@@ -1,0 +1,11 @@
+# Example Candidate field list for data extraction
+# Updated by Alaina Shreves 5 December 2022
+
+
+#List fields of interest - note that none of these are array variables
+# format = [fieldnumber] # [fieldname].[fieldnumber]
+
+#### EXAMPLE FIELDS
+31 # sex.31
+34 # yearBirth.34
+52 # monthBirth.52
