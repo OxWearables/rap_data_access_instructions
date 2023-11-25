@@ -33,9 +33,7 @@ Description: This text file outlines instructions for how to extract data using 
  Use cases: 
 **I want to extract UKB data for my analysis:** You can either use the Jupyter Notebook method or the RAP data explorer method. We recommend using the Jupyter notebook method, /data_access_instructions/data_extraction_template.ipynb, if possible as it is more reproducible. 
 
-If you want to add a few variables to an existing dataset or want a quicker method of pulling data, you can follow the TAP Table Table Exporter instructions found here: /data_access_instruction/table_exporter_instruction.txt
-
-**I want to extract covariate data (e.g., age, sex, body mass index) that are commonly used by the OxWearables group:** See the /shared_data/ folder in the main project to find a prepared dataset containing common covariates, /shared_data/data_clean/prepped_covariate_data.csv. The README in the folder describes how this dataset should be used. 
+If you want to add a few variables to an existing dataset or want a quicker method of pulling data, you can follow the TAP Table Table Exporter instructions. However, this method is not easily reproducible and not preferred by our group.
 
 # Question or bugs?
 
@@ -43,9 +41,7 @@ If you have any questions or find any bugs, please add an issue on GitHub or ema
 
 # Credits
 
-This worked example draws on an earlier tutorial: 
-
-- https://github.com/OxWearables/rap_wearables
+This worked example draws on the [rap_wearables tutorial](https://github.com/OxWearables/rap_wearables)
 
 This repository was written by [Alaina Shreves](mailto::alaina.shreves@wadham.ox.ac.uk), with contributions and advice from Rosemary Walmsley and Adam Sturge.
 
