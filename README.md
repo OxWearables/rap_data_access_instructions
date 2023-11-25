@@ -1,5 +1,4 @@
 # Filename: RAP data access template repository
-# Date updated: 13 January 2022
 # Creator: [Alaina Shreves](mailto::alaina.shreves@wadham.ox.ac.uk)
 
 # Description:
