@@ -1,7 +1,6 @@
-# Filename: RAP data access template repository
-# Creator: [Alaina Shreves](mailto::alaina.shreves@wadham.ox.ac.uk)
+# OxWearables Group RAP access template
+## Creator: [Alaina Shreves](mailto::alaina.shreves@wadham.ox.ac.uk)
 
-# Description:
 ## What is this repository?
 This repository provides a **template for using the RAP system to pull UK Biobank data for an analysis**.
 
