@@ -5,8 +5,8 @@
 This repository provides a **template for using the RAP system to pull UK Biobank data for an analysis**.
 
 Note that there are two primary methods for accessing UKB data using the RAP. 
-(1) Using a Jupyter notebook run with a Spark cluster
-(2) Using the RAP's Table Exporter application
+- (1) Using a Jupyter notebook run with a Spark cluster
+- (2) Using the RAP's Table Exporter application
 
 ## This folder contains: 
 ### Data extraction template (via Jupyter Notebook)
@@ -18,7 +18,7 @@ Before each code chunk, there is text labeled 'edit code' and 'standard code.' M
 
 To extract your own data, copy this file and the candidate field list file (described below) into your folder before making changes.
 
-### Candidate field list example (for Jupyter Notebook example)
+### Candidate field list example (Jupyter Notebook example)
 Description: This file is used by the Jupyter Notebook to extract specific data fields. Please follow the instructions in the data extraction template for how to update the file to pull any additional fields of interest. 
 
 To extract your own data, copy this file and the Jupyter Notebook example (described above) into your folder before making changes.
