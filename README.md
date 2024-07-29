@@ -18,7 +18,7 @@ Before each code chunk, there is text labeled 'edit code' and 'standard code.' M
 
 To extract your own data, copy this file and the candidate field list file (described below) into your folder before making changes.
 
-### Candidate field list example (Jupyter Notebook example)
+### Candidate field list example (via Jupyter Notebook)
 Description: This file is used by the Jupyter Notebook to extract specific data fields. Please follow the instructions in the data extraction template for how to update the file to pull any additional fields of interest. 
 
 To extract your own data, copy this file and the Jupyter Notebook example (described above) into your folder before making changes.
