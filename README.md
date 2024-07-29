@@ -47,5 +47,5 @@ If you use this repo for a research paper, please cite:
 XXXX 
 
 If you use this repo for a technical report, please cite:
-Shreves A. rap_data_access_instructions (2022), URL: https://github.com/OxWearables/rap_data_access_instructions
+Shreves A. rap_data_access_instructions (2024), URL: https://github.com/OxWearables/rap_data_access_instructions
 
