@@ -43,9 +43,8 @@ This worked example draws on the [rap_wearables tutorial](https://github.com/OxW
 
 This repository was written by [Alaina Shreves](mailto::alaina.shreves@wadham.ox.ac.uk), with contributions and advice from Rosemary Walmsley and Adam Sturge.
 
-If you use this repo for a research paper, please cite:
-XXXX 
 
 If you use this repo for a technical report, please cite:
 Shreves A. rap_data_access_instructions (2024), URL: https://github.com/OxWearables/rap_data_access_instructions
+
 
