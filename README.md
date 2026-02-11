@@ -31,7 +31,7 @@ Description: This text file outlines instructions for how to extract data using 
  Use cases: 
 **I want to extract UKB data for my analysis:** You can either use the Jupyter Notebook method or the RAP data explorer method. We recommend using the Jupyter notebook method if possible as it is more reproducible. 
 
-If you want to add a few variables to an existing dataset or want a quicker method of pulling data, you can follow the TAP Table Table Exporter instructions. However, this method is not easily reproducible and not preferred by our group.
+If you want to add a few variables to an existing dataset or want a quicker method of pulling data, you can follow the Table Table Exporter instructions. However, this method is not easily reproducible and not preferred by our group.
 
 # Question or bugs?
 
@@ -46,5 +46,6 @@ This repository was written by [Alaina Shreves](mailto::alaina.shreves@wadham.ox
 
 If you use this repo for a technical report, please cite:
 Shreves A. rap_data_access_instructions (2024), URL: https://github.com/OxWearables/rap_data_access_instructions
+
 
 
