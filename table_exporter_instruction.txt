@@ -9,7 +9,7 @@ This file provides **instructions for using the RAP Table Exporter tool to pull 
 This method is best used when you want to add a few variables to a project, but is probably not the best method for pulling large datasets. For pulling datasets that contain many variables, use the instructions found in the /data_access_instructions/ folder that describe pulling data using Jupyter lab notebooks. 
 
 Step 1. Load cohort data in Data Preview
-In the main project folder, the file 'app59070_20221124201938.dataset' contains the base cohort of 502,415 participants. Click on this file to load the dataset in the cohort browser Data Preview. A cohort browser Data Preview window will open where you can see the variables included in this dataset.
+In the main project folder, you can find the main dataset file (format looks like app59070.... .dataset)which contains the base cohort of 502,415 participants. Click on this file to load the dataset in the cohort browser Data Preview. A cohort browser Data Preview window will open where you can see the variables included in this dataset.
 
 Step 2. Add variables of interest
 Click the 'Data Preview' tab on the left then click on 'Add column' on the right. Search through the available variables and choose the variables from the folders that are shown on the left. Click on 'Add to data preview' to add it to your data preview window (e.g. body mass index). You should now see the column in your data preview window. 
@@ -51,4 +51,5 @@ If you have any questions or find any bugs, please add an issue on GitHub or ema
 This worked example draws the [rap_wearables tuorial](https://github.com/OxWearables/rap_wearables)
 
 This repository was written by [Alaina Shreves](mailto::alaina.shreves@wadham.ox.ac.uk), with contributions and advice from Rosemary Walmsley and Adam Sturge.
+
 
