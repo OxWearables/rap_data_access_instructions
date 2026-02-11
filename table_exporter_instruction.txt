@@ -6,15 +6,15 @@
 ## What is this file?
 This file provides **instructions for using the RAP Table Exporter tool to pull UK Biobank data for an analysis**.
 
-This method is best used when you want to add a few variables to a project, but is probably not the best method for pulling large datasets. For pulling datasets that contain many variables, use the instructions found in the /data_access_instructions/ folder that describe pulling data using Jupyter lab notebooks. 
+This method is best used when you want to add a few variables to a project, but it is probably not the best method for pulling large datasets. For pulling datasets that contain many variables, use the instructions found in the /data_access_instructions/ folder that describe pulling data using Jupyter Lab notebooks. 
 
 Step 1. Load cohort data in Data Preview
-In the main project folder, you can find the main dataset file (format looks like app59070.... .dataset)which contains the base cohort of 502,415 participants. Click on this file to load the dataset in the cohort browser Data Preview. A cohort browser Data Preview window will open where you can see the variables included in this dataset.
+In the main project folder, you can find the main dataset file (format looks like app59070.... .dataset) which contains the base cohort of 502,415 participants. Click on this file to load the dataset in the cohort browser Data Preview. A cohort browser Data Preview window will open, where you can see the variables included in this dataset.
 
 Step 2. Add variables of interest
-Click the 'Data Preview' tab on the left then click on 'Add column' on the right. Search through the available variables and choose the variables from the folders that are shown on the left. Click on 'Add to data preview' to add it to your data preview window (e.g. body mass index). You should now see the column in your data preview window. 
+Click the 'Data Preview' tab on the left, then click on 'Add column' on the right. Search through the available variables and choose the variables from the folders that are shown on the left. Click on 'Add to data preview' to add it to your data preview window (e.g. body mass index). You should now see the column in your data preview window. 
 
-* Note - A note on instances and array indices: Variables in UK Biobank come with instances and array indices. For most variables with instancing, repeat 1 refers to a resurvey among a limited number of participants and repeat 2 is the imaging visit. Both apply only to a subset of participants. More importantly, some variables have multiple items, as participants could give multiple answers (e.g. employment history) or had multiple measurements taken at a single visit (e.g. blood pressure measurements).*
+* Note - A note on instances and array indices: Variables in UK Biobank come with instances and array indices. For most variables with instancing, repeat 1 refers to a resurvey among a limited number of participants, and repeat 2 is the imaging visit. Both apply only to a subset of participants. More importantly, some variables have multiple items, as participants could give multiple answers (e.g., employment history) or had multiple measurements taken at a single visit (e.g., blood pressure measurements).*
 
 To remove a variable column, click the grid icon (reads 'Customize Columns' when you hover over it). Click the '-' symbol next to the variable that you want to be removed.
 
@@ -26,14 +26,14 @@ Once all filters are set and all variables needed have been added as columns, yo
 
 Type a name for your cohort and change the location of the cohort to be in your user's folder (/users/YOURNAME). Don’t forget to document the datasets you prepare and keep the folders you have as clean as you can. The RAP system helps with documentation - but there’s nothing more frustrating than coming back to a dataset and not knowing what’s in it or why.
 
-Step 5. Exporting the cohort / dataset to csv
+Step 5. Exporting the cohort/dataset to csv
 First, you need to create a csv file. Click on the 'Projects' tab at the top of the window to return to the main RAP project. Navigate to your personal folder where you stored your cohort. Click 'Start Analysis' in the upper right corner.
 
 Scroll down to 'Table exporter' from the list of apps and click on the 'Run Selected' button in the bottom right. A new window should open. *Note - If this is the first time you have run Table Exporter, you'll be prompted to install it first!*
 
 Within the Table Exporter app, open the 'Analysis Inputs 1' tab on the right side of the screen. Then click the 'Dataset or Cohort or Dashboard' tile.
 
-You can export the data in different formats. UKB variables have field numbers, as well as names, and categorical variables, are stored as numbers to reduce the size of the dataset. To download a csv file with variable names and variable coding already done, choose the output file format as csv, coding option REPLACE and header style FIELD NAME.
+You can export the data in different formats. UKB variables have field numbers, as well as names, and categorical variables are stored as numbers to reduce the size of the dataset. To download a csv file with variable names and variable coding already done, choose the output file format as csv, coding option REPLACE, and header style FIELD NAME.
 
 Click on 'Start Analysis' on the top right
 
@@ -51,5 +51,6 @@ If you have any questions or find any bugs, please add an issue on GitHub or ema
 This worked example draws the [rap_wearables tuorial](https://github.com/OxWearables/rap_wearables)
 
 This repository was written by [Alaina Shreves](mailto::alaina.shreves@wadham.ox.ac.uk), with contributions and advice from Rosemary Walmsley and Adam Sturge.
+
 
 
